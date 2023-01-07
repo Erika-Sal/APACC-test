@@ -102,3 +102,34 @@ body{
     object-fit: cover;
 }
 
+.title{
+    text-align:center; 
+    margin-top:-450px; 
+    background-color: cornflowerblue;
+}
+
+.welcome{
+    margin-bottom: -15px;
+   /* background-color: transparent; */
+    
+}
+
+.Asian{
+    margin-top:20px; 
+}
+
+@media screen and (min-width: 601px) {
+    .title {
+      font-size: 35px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .title {
+    margin-top:-400px; 
+      font-size: 18px;
+    }
+  }
+
+  
