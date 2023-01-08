@@ -200,11 +200,11 @@ body{
         padding-left:70px; 
         display: inline-block;
         height: 27vh;
-        padding-bottom:-200px; 
+        padding-bottom:-300px; 
          position: relative; 
       text-align:center;
       font-size: 17px;
-      margin-top:-150px; 
+      margin-top:-30px; 
       background-color: rgba(10, 135, 87, 0.8);      border: solid black 8px; 
       color: rgb(38, 33, 27);
 
@@ -242,7 +242,7 @@ body{
         position: relative; 
       text-align:center;
       font-size: 17px;
-      margin-top:-250px; 
+      margin-top:-50px; 
       background-color: rgba(12, 123, 179, 0.8);     
        border: solid black 8px; 
       color: rgb(38, 33, 27);
