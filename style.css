@@ -166,6 +166,7 @@ body{
       padding-left: 40px;
       padding-bottom:10px; 
       width:700px;
+      height:auto;
       padding-top:-10px;
       padding-bottom: 30px;
       text-align:center; 
@@ -193,7 +194,7 @@ body{
         padding-left:70px; 
         display: block;
         width:400px; 
-        height:165px;
+        height:auto;
          position: relative; 
       text-align:center;
       font-size: 17px;
