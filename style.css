@@ -175,7 +175,7 @@ body{
       padding-top:-10px;
       padding-bottom: 30px;
       text-align:center; 
-      background-color: rgba(229, 91, 91, 0.8);
+      background-color: rgba(144, 117, 117, 0.8);
       border: solid black 8px; 
       margin-top:50px; 
     }
@@ -241,7 +241,8 @@ body{
       text-align:center;
       font-size: 17px;
       margin-top:-250px; 
-      background-color: rgba(229, 91, 91, 0.8);      border: solid black 8px; 
+      background-color: rgba(229, 91, 91, 0.8);     
+       border: solid black 8px; 
       color: rgb(38, 33, 27);
 
 
