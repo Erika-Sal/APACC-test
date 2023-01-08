@@ -95,40 +95,126 @@ body{
 
 }
 
+
+.header{
+    position: relative;
+    text-align: center;
+}
 .imgHeader{
     width:1500px; 
     max-width:100%;
-    max-height:600px; 
+    max-height:560px; 
+    margin-bottom:-50px; 
     object-fit: cover;
 }
 
-.title{
-    text-align:center; 
-    margin-top:-450px; 
-    background-color: cornflowerblue;
-}
 
+.title{
+    position: absolute;
+    margin-top:-300px; 
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);  
+    animation: zoom-out 1s ease-out; 
+}
 .welcome{
-    margin-bottom: -15px;
-   /* background-color: transparent; */
-    
+     margin-bottom: -15px; 
+     font-size: 30px;    
+
 }
 
 .Asian{
     margin-top:20px; 
+    font-size:20px; 
+}
+
+.woods{
+    margin-bottom:5px; 
+}
+
+.apacc{
+    margin-top:0px; 
+}
+
+
+
+@keyframes zoom-out{
+
+    from{
+        
+        transform: scale(0);
+    }
+
+    to{
+        
+        transform: scale(1);
+    }
+
+    
 }
 
 @media screen and (min-width: 601px) {
     .title {
-      font-size: 35px;
+      font-size: 25px;
+      padding-right:40px; 
+      padding-left: 40px;
+      padding-bottom:10px; 
+      width:700px;
+      
+      padding-top:-10px;
+      padding-bottom: 30px;
+      text-align:center; 
+      background-color: rgba(229, 91, 91, 0.8);
+      border: solid black 8px; 
+      margin-top:50px; 
+    }
+    .Asian{
+        margin-bottom: 0px; ;
+    }
+    .welcome{
+        font-size:45px; 
+        margin-bottom:0px; 
+    }
+
+    .woods{
+        margin-top:5px; 
     }
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
     .title {
-    margin-top:-400px; 
-      font-size: 18px;
+        padding-right: 70px;
+        padding-left:70px; 
+        display: block;
+        width:400px; 
+        height:165px;
+         position: relative; 
+      text-align:center;
+      font-size: 17px;
+      margin-top:-300px; 
+      background-color: rgba(229, 91, 91, 0.8);      border: solid black 8px; 
+      color: rgb(38, 33, 27);
+
+
+    }
+
+
+
+    .welcome{
+        font-size:28px; 
+        margin-bottom:0px; 
+    }
+    .Asian{
+        font-size:14px; 
+        margin-top:0px; 
+    }
+
+    .woods, .apacc{
+        font-size:30px;
+        margin-top:8px; 
+        font-weight: bolder;
+        margin-bottom:10px; 
     }
   }
 
