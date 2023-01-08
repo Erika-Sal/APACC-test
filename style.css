@@ -251,7 +251,7 @@ body{
     }
 
     .welcome{
-        font-size:20px; 
+        font-size:15px; 
         margin-bottom:0px; 
     }
     .Asian{
@@ -260,7 +260,7 @@ body{
     }
 
     .woods, .apacc{
-        font-size:25px;
+        font-size:20px;
         margin-top:8px; 
         font-weight: bolder;
         margin-bottom:10px; 
