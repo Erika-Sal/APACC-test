@@ -265,6 +265,14 @@ body{
         font-weight: bolder;
         margin-bottom:10px; 
     }
+    .imgHeader{
+        width:100%; 
+        max-width:100%;
+        display: inline-block;
+        height: 100vh;
+        margin-bottom:-350px; 
+        object-fit: cover;
+    }
   }
 
   
