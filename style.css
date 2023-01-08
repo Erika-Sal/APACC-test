@@ -251,16 +251,16 @@ body{
     }
 
     .welcome{
-        font-size:28px; 
+        font-size:20px; 
         margin-bottom:0px; 
     }
     .Asian{
-        font-size:14px; 
+        font-size:10px; 
         margin-top:0px; 
     }
 
     .woods, .apacc{
-        font-size:30px;
+        font-size:25px;
         margin-top:8px; 
         font-weight: bolder;
         margin-bottom:10px; 
