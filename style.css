@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+@-ms-viewport {
+    width: device-width ;
+  }
+  
+
 body{
     margin: 0; 
     padding: 0; 
@@ -104,7 +109,7 @@ body{
     text-align: center;
 }
 .imgHeader{
-    width:1500px; 
+    width:100%; 
     max-width:100%;
     max-height:560px; 
     margin-bottom:-50px; 
@@ -224,4 +229,40 @@ body{
     }
   }
 
+
+  @media screen and (max-width: 320px) {
+    
+    .title {
+        padding-right: 60px;
+        padding-left:60px; 
+        display: block;
+        width:350px; 
+         position: relative; 
+      text-align:center;
+      font-size: 17px;
+      margin-top:-250px; 
+      background-color: rgba(229, 91, 91, 0.8);      border: solid black 8px; 
+      color: rgb(38, 33, 27);
+
+
+    }
+
+    .welcome{
+        font-size:28px; 
+        margin-bottom:0px; 
+    }
+    .Asian{
+        font-size:14px; 
+        margin-top:0px; 
+    }
+
+    .woods, .apacc{
+        font-size:30px;
+        margin-top:8px; 
+        font-weight: bolder;
+        margin-bottom:10px; 
+    }
+  }
+
+  
   
