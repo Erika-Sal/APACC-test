@@ -251,11 +251,12 @@ body{
     }
 
     .welcome{
-        font-size:13px; 
-        margin-bottom:0px; 
+        font-size:15px; 
+        margin-bottom:0px;
+        padding-top:10px;  
     }
     .Asian{
-        font-size:10px; 
+        font-size:8px; 
         margin-top:0px; 
     }
 
@@ -270,7 +271,7 @@ body{
         max-width:100%;
         display: inline-block;
         height: 100vh;
-        margin-bottom:-350px; 
+        margin-bottom:-450px; 
         object-fit: cover;
     }
   }
