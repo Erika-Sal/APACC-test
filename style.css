@@ -237,7 +237,7 @@ body{
         padding-right: 60px;
         padding-left:60px; 
         display: inline-block;
-        height: 27vh;
+        height: 17vh;
         width:300px; 
         position: relative; 
       text-align:center;
@@ -251,7 +251,7 @@ body{
     }
 
     .welcome{
-        font-size:15px; 
+        font-size:13px; 
         margin-bottom:0px; 
     }
     .Asian{
@@ -260,7 +260,7 @@ body{
     }
 
     .woods, .apacc{
-        font-size:20px;
+        font-size:17px;
         margin-top:8px; 
         font-weight: bolder;
         margin-bottom:10px; 
