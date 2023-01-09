@@ -179,6 +179,7 @@ body{
       background-color: rgba(144, 117, 117, 0.8);
       border: solid black 8px; 
       margin-top:50px; 
+      margin-bottom: -100px; 
     }
     .Asian{
         margin-bottom: 0px; ;
@@ -191,6 +192,15 @@ body{
     .woods{
         margin-top:5px; 
     }
+
+    .sec2{
+        margin-top:-100px;
+        margin-bottom: 80px; 
+    }
+    .imgHeader{
+        margin-bottom:-80px; 
+    }
+
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
@@ -207,11 +217,13 @@ body{
       margin-top:-300px; 
       background-color: rgba(10, 135, 87, 0.8);      border: solid black 8px; 
       color: rgb(38, 33, 27);
-
+    margin-bottom:400px;
 
     }
 
-
+.header{
+    margin-bottom:-100px; 
+}
 
     .welcome{
         font-size:28px; 
@@ -228,6 +240,19 @@ body{
         font-weight: bolder;
         margin-bottom:10px; 
     }
+    .sec2{
+        padding-bottom: 150px; 
+        margin-bottom:-900px; 
+    }
+
+    .what{
+        margin-bottom:0px; 
+    }
+
+    .blurb{
+        margin-top:10px; 
+    }
+
   }
 
 
@@ -274,6 +299,17 @@ body{
         margin-bottom:-450px; 
         object-fit: cover;
     }
+  }
+
+  .sec2{
+    text-align:center; 
+    margin-top:150px; 
+    margin-bottom: 80px; 
+  }
+
+  .blurb{
+    padding-right:10px; 
+    padding-left:10px; 
   }
 
   
