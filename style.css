@@ -11,7 +11,12 @@ body{
     margin: 0; 
     padding: 0; 
 }
-
+.brand-title{
+    text-decoration:none; 
+}
+a{
+    color: white; 
+}
 .navbar{
     display:flex;
     justify-content: space-between;
@@ -25,6 +30,7 @@ body{
 .brand-title{
     font-size: 1.5rem;
     margin:.5rem;
+    color:white; 
 }
 
 .navbar-links ul{
@@ -122,9 +128,9 @@ body{
     margin-top:-3200px; 
     top:50%;
     left:50%;
-    transform: translate(-50%, -50%);  
-     
+    transform: translate(-50%, -50%);     
 }
+
 .welcome{
      margin-bottom: -15px; 
      font-size: 30px;    
@@ -137,9 +143,7 @@ body{
      
 }
 
-.animations{
-    /* animation: zoom-out 1s ease-out;  */
-}
+
 
 .woods{
     margin-bottom:5px;
@@ -165,7 +169,7 @@ body{
     
 }
 
-@media screen and (min-width: 701px) {
+@media screen and (min-width: 791px) {
     .title {
       font-size: 25px;
       padding-right:40px; 
@@ -192,32 +196,129 @@ body{
     .woods{
         margin-top:5px; 
     }
+    .blurb{
+        font-size:30px; 
+        padding-right:15px;
+        padding-left:15px;
+    }
 
     .sec2{
-        margin-top:-100px;
+        margin-top:130px;
+        padding-top: 200px;
+        padding-bottom: 170px;
+        border:black solid 2px;
         margin-bottom: 80px; 
     }
+    
     .imgHeader{
         margin-bottom:-80px; 
+    }
+
+    .sec3{
+        display:flex; 
+        flex-direction: row;
+        background-color:bisque; 
+        border:black solid 2px; 
+    }
+
+    .sec3Photo{
+        width:35%;
+        height:35%; 
+        margin-left:20%; 
+        border: black solid 2px; 
+        margin-top:5%;
+        margin-right:5%;
+        margin-bottom:5%
+    }
+
+    .sec3Words{
+        margin-right:0%; 
+        padding-left:10%; 
+        margin-top:5%; 
+        font-size:25px; 
+    }
+
+    .sec4{
+        display:flex;
+        flex-direction: row; 
+        margin-top:5%; 
+        background-color:bisque;
+        border: black solid 2px; 
+    }
+
+    .sec4Photo{
+        width:30%;
+        height:30%;
+        margin-left:5%;
+        margin-top:5%;
+        margin-bottom:5%;
+        border: black solid 2px; 
+    }
+
+    .sec4Words{
+        margin-left:10%;
+        margin-top:10%;
+        font-size:20px; 
+    }
+
+    .joinButt{
+        margin-left:20%;
+        color:red; 
+        padding:2%; 
+    }
+
+    .wordButt{
+        font-size:30px; 
+    }
+
+    .sec5{
+        display:flex;
+        flex-direction: row;
+        background-color: bisque;
+        margin-top:5%;
+        border:black solid 2px;
+    }
+
+    .sec5Photo{
+        width:30%;
+        height:30%;
+        margin-left:20%;
+        margin-top:5%;
+        margin-bottom:5%;
+        border: black solid 2px; 
+    }
+
+    .sec5Words{
+        margin-left:7%;
+        margin-top:11%;
+        font-size: 25px;
+    }
+
+    .Butt5{
+        font-size:25px;
+    }
+
+    .teamButt{
+        margin-left:20%;
     }
 
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 821px) {
     .title {
-        padding-right: 70px;
-        padding-left:70px; 
-        display: inline-block;
-        height: 27vh;
-        padding-bottom:-300px; 
-         position: relative; 
+      padding-right: 70px;
+      padding-left:70px; 
+      display: inline-block;
+      height: 27vh;
+      padding-bottom:-100px; 
+      position: relative; 
       text-align:center;
       font-size: 17px;
       margin-top:-300px; 
       background-color: rgba(10, 135, 87, 0.8);      border: solid black 8px; 
       color: rgb(38, 33, 27);
-    margin-bottom:400px;
+      margin-bottom:400px;
 
     }
 
@@ -243,6 +344,7 @@ body{
     .sec2{
         padding-bottom: 150px; 
         margin-bottom:-900px; 
+        border:black solid 2px; 
     }
 
     .what{
@@ -251,12 +353,83 @@ body{
 
     .blurb{
         margin-top:10px; 
+        padding-right:15px; 
+        padding-left:15px; 
+        font-size:20px; 
+          
     }
+   .sec3{
+    background-color: bisque;
+    padding:10px;
+    margin-bottom:50px; 
+    display:flex; 
+    flex-direction: row;
+    border:black solid 2px; 
+   }
 
+   .sec3Photo{
+    width:50%;
+    height:50%;
+    margin-left:10%;
+    border: black solid 2px; 
+   }
+   .sec4{
+    display:flex;
+    flex-direction:row;
+    background-color:bisque;
+    border:black solid 2px; 
+   }
+   .sec4Photo{
+    width:35%;
+    height:35%;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+    border: black solid 2px; 
+   }
+
+   .sec4Words{
+    margin-left:3%;
+    margin-top:10%;
+   }
+
+   .joinButt{
+    margin-left:20%;
+    padding:2%; 
+}
+
+.wordButt{
+    font-size:20px; 
+}
+
+.sec5{
+    background-color:bisque;
+    display:flex;
+    flex-direction:row;
+    margin-top:10%;
+    border: black solid 2px;
+}
+
+.sec5Photo{
+    width:30%;
+    height:30%;
+    margin-top:5%;
+    margin-bottom:5%; 
+    margin-left:12%;
+    border: black solid 2px; 
+}
+
+.sec5Words{
+    margin-left:7%;
+    margin-top:7%
+}
+.teamButt{
+    margin-left: 20%;
+    font-size:20px;
+}
   }
 
-
-  @media screen and (max-width: 420px) {
+  @media screen and (max-width: 100px) {
     
     .title {
         padding-right: 60px;
@@ -265,12 +438,12 @@ body{
         height: 17vh;
         width:300px; 
         position: relative; 
-      text-align:center;
-      font-size: 17px;
-      margin-top:-500px; 
-      background-color: rgba(186, 61, 81, 0.8);     
-       border: solid black 8px; 
-      color: rgb(38, 33, 27);
+        text-align:center;
+        font-size: 17px;
+        margin-top:-500px; 
+        background-color: rgba(186, 61, 81, 0.8);     
+        border: solid black 8px; 
+        color: rgb(38, 33, 27);
 
 
     }
@@ -299,18 +472,43 @@ body{
         margin-bottom:-450px; 
         object-fit: cover;
     }
+
+    .sec3{
+        font-size:60px; 
+        color:blue; 
+    }
+    .words{
+        margin-left:500%; 
+        font-size:30px; 
+        text-align:center; 
+        padding-left:-10px; 
+        padding-right:-20px;
+    }
+    .memberButton{
+        text-align:center; 
+        font-size: 16px;
+        font-size: 300px;
+    }
+    
   }
 
   .sec2{
     text-align:center; 
-    margin-top:150px; 
+    padding-top:150px;
     margin-bottom: 80px; 
+    background-color: bisque;
   }
 
-  .blurb{
-    padding-right:10px; 
-    padding-left:10px; 
-  }
+.what{
+    font-size:50px; 
+}
 
-  
+.wordButt{
+    color:red; 
+}
+
+
+
+
+
   
