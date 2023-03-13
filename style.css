@@ -566,7 +566,7 @@ a{
     height:30%;
     margin-top:5%;
     margin-bottom:5%; 
-    margin-left:10%;
+    margin-left:5%;
     margin-right:10%;
     border: black solid 2px; 
 }
@@ -581,7 +581,7 @@ a{
 }
 .teamButt{
     margin-left: 20%;
-    font-size:20px;
+    font-size:10px;
 }
     
     
