@@ -436,13 +436,13 @@ a{
         padding-left:60px; 
         display: inline-block;
         height: 17vh;
-        
+
         width:300px; 
         position: relative; 
         text-align:center;
         font-size: 17px;
         margin-top:-500px; 
-        background-color: rgba(87, 178, 217, 0.8);     
+        background-color: rgba(24, 198, 186, 0.8);     
         border: solid black 8px; 
         color: rgb(38, 33, 27);
 
@@ -567,7 +567,12 @@ a{
     margin-top:5%;
     margin-bottom:5%; 
     margin-left:10%;
+    margin-right:10%;
     border: black solid 2px; 
+}
+
+.points{
+    font-size:20px; 
 }
 
 .sec5Words{
