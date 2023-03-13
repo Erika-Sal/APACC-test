@@ -472,15 +472,11 @@ a{
         margin-bottom:-450px; 
         object-fit: cover;
     }
-
-    .sec3{
-        font-size:30px; 
-    }
     .words{
         margin-left:500%; 
         font-size:30px; 
         text-align:center;
-         
+
         padding-left:-10px; 
         padding-right:-20px;
     }
