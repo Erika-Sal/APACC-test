@@ -489,6 +489,93 @@ a{
         font-size: 16px;
         font-size: 300px;
     }
+    .sec2{
+        padding-bottom: 150px; 
+        margin-bottom:-900px; 
+        border:black solid 2px; 
+    }
+
+    .what{
+        margin-bottom:0px; 
+    }
+
+    .blurb{
+        margin-top:10px; 
+        padding-right:15px; 
+        padding-left:15px; 
+        font-size:20px; 
+          
+    }
+   .sec3{
+    background-color: bisque;
+    padding:10px;
+    margin-bottom:50px; 
+    display:flex; 
+    flex-direction: row;
+    border:black solid 2px; 
+   }
+
+   .sec3Photo{
+    width:50%;
+    height:50%;
+    margin-left:10%;
+    border: black solid 2px; 
+   }
+   .sec4{
+    display:flex;
+    flex-direction:row;
+    background-color:bisque;
+    border:black solid 2px; 
+   }
+   .sec4Photo{
+    width:35%;
+    height:35%;
+    margin-left:5%;
+    margin-top:5%;
+    margin-bottom:5%;
+    border: black solid 2px; 
+   }
+
+   .sec4Words{
+    margin-left:3%;
+    margin-top:10%;
+   }
+
+   .joinButt{
+    margin-left:20%;
+    padding:2%; 
+}
+
+.wordButt{
+    font-size:20px; 
+}
+
+.sec5{
+    background-color:bisque;
+    display:flex;
+    flex-direction:row;
+    margin-top:10%;
+    border: black solid 2px;
+}
+
+.sec5Photo{
+    width:30%;
+    height:30%;
+    margin-top:5%;
+    margin-bottom:5%; 
+    margin-left:12%;
+    border: black solid 2px; 
+}
+
+.sec5Words{
+    margin-left:7%;
+    margin-top:7%
+}
+.teamButt{
+    margin-left: 20%;
+    font-size:20px;
+}
+    
     
   }
 
