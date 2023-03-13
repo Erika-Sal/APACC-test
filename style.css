@@ -479,7 +479,8 @@ a{
     .words{
         margin-left:500%; 
         font-size:30px; 
-        text-align:center; 
+        text-align:center;
+         
         padding-left:-10px; 
         padding-right:-20px;
     }
