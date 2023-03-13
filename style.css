@@ -486,6 +486,7 @@ a{
         font-size: 300px;
     }
     .sec2{
+        margin-top:10%;
         padding-bottom: 150px; 
         margin-bottom:-900px; 
         border:black solid 2px; 
@@ -516,6 +517,8 @@ a{
     height:40%;
     margin-left:10%;
     border: black solid 2px; 
+    margin-top:5%;
+    margin-bottom:5%;
    }
    .sec4{
     display:flex;
@@ -531,9 +534,12 @@ a{
     margin-bottom:5%;
     border: black solid 2px; 
    }
+   .become{
+    font-size:20px; 
+   }
 
    .sec4Words{
-    margin-left:3%;
+    margin-left:5%;
     margin-top:10%;
    }
 
@@ -559,7 +565,7 @@ a{
     height:30%;
     margin-top:5%;
     margin-bottom:5%; 
-    margin-left:12%;
+    margin-left:10%;
     border: black solid 2px; 
 }
 
